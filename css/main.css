@@ -1,0 +1,81 @@
+.form{
+    width: 100%;
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+input {
+width: 70%;
+border: none;
+height: 100%;
+padding: 6px;
+}
+.form .btn-group:nth-child(1){
+    float: left;
+}
+
+.form .btn-group:nth-child(3){
+    float: right;
+}
+.btn-group .btn-secondary{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.btn-group .btn-danger{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+input:focus{
+    outline: none;
+}
+.badge{
+    color: #292828;
+}
+.badge-uzbek{
+    color: #fff;
+    background-color: #3582c5;
+    border-color: #3582c5;
+}
+.badge-daugiz{
+    color: #fff;
+    background-color: #76c535;
+    border-color: #76c535;
+}
+.list-unstyled li{
+    position: relative;
+} 
+.list-unstyled .badge{
+    position: absolute;
+    right: -15px;
+    top: 5px;
+}
+
+.progress{
+    height: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.crumb{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #c0bfbf;
+    padding: 10px;
+}
+.fl{
+    float: right;
+}
+.mt00{
+    margin-top: -15px;
+    margin-right: -20px;
+}
+.box-shadow{
+    box-shadow: 0 0 15px #000;
+}
+.width{
+    width: 100px;
+    height: 100px;
+}
+
+
